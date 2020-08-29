@@ -1,4 +1,5 @@
-.DEFAULT_TARGET: run
+install:
+	pipenv install
 
-run:
+run: install
 	pipenv run python main.py
